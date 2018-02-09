@@ -3,10 +3,7 @@ var conditionalSum = function(values, condition) {
 	var sum = 0;
 
 	// replaces the multiple checking
-	var conditionIsEven;
-	if(condition == "even"){
-		conditionIsEven = true;
-	}
+	var conditionIsEven = (condition == "even");
 	
 	for(var i=0;i<values.length;i++) {
 		if(isConditionEven) {

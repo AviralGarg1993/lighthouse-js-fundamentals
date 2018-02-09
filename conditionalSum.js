@@ -1,8 +1,15 @@
 var conditionalSum = function(values, condition) {
   // Your code here
 	var sum = 0;
+
+	// replaces the multiple checking
+	var conditionIsEven;
+	if(condition == "even"){
+		conditionIsEven = true;
+	}
+	
 	for(var i=0;i<values.length;i++) {
-		if(condition == "even") {
+		if(isConditionEven) {
 			if(values[i] % 2 === 0) {
 				sum += values[i];
             }
